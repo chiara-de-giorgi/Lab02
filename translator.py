@@ -34,6 +34,7 @@ class Translator:
     def handleAdd(self, entry):
         # entry is a tuple <parola_aliena> <traduzione1 traduzione2 ...>
         aliena=entry[0]
+        #ciao
         traduzioni=entry[1:]
         #if aliena.isalpha() and (t.isalpha() for t in traduzioni):
         self.dictionary.addWord(aliena, traduzioni)

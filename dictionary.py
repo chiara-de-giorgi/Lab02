@@ -15,6 +15,6 @@ class Dictionary:
             return self.dizionario[parola_min]
         else:
             return "Parola non trovata"
-
+#ic
     def translateWordWildCard(self):
         pass

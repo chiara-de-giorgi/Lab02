@@ -24,7 +24,7 @@ while(True):
         #        continue
 
         t.handleAdd(parola)
-
+#cfkid
     if int(txtIn) == 2:
         print ("Ok, quale parola vuoi cercare?")
         parola=input().lower()
